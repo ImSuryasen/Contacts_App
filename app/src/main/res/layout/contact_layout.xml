@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="2dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="50dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="#F8C6C2"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:layout_weight="1"
+            android:src="@drawable/coding"
+
+            >
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/contactName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suryasen"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/contactNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9799080677"
+                android:textSize="22dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
